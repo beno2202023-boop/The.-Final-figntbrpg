@@ -1,60 +1,7 @@
-# The Final Fight RPG
+# 🥊 The Final Fight RPG 🥊
 
-A Final Fight-inspired RPG game built with Java and LibGDX.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java: 11+](https://img.shields.io/badge/Java-11%2B-orange.svg)](https://www.oracle.com/java/)
+[![Framework: LibGDX](https://img.shields.io/badge/Framework-LibGDX-red.svg)](https://libgdx.com/)
 
-## Description
-It's final fight but it's a/rpg - A blend of classic beat-em-up action with RPG mechanics.
-
-## Tech Stack
-- **Language:** Java
-- **Framework:** LibGDX
-- **Build Tool:** Maven
-
-## Project Structure
-```
-src/
-├── main/
-│   ├── java/
-│   │   └── com/finalfightrpg/
-│   │       ├── Main.java
-│   │       ├── game/
-│   │       ├── screens/
-│   │       ├── entities/
-│   │       ├── systems/
-│   │       └── assets/
-│   └── resources/
-└── test/
-    └── java/
-```
-
-## Getting Started
-
-### Prerequisites
-- Java 11 or higher
-- Maven 3.6+
-
-### Building
-```bash
-mvn clean package
-```
-
-### Running
-```bash
-mvn exec:java@run
-```
-
-## Features (Planned)
-- [ ] Core game engine
-- [ ] Character creation
-- [ ] Combat system
-- [ ] Level progression
-- [ ] Enemy AI
-- [ ] Inventory/Equipment system
-- [ ] Save/Load functionality
-- [ ] UI/Menu system
-
-## Contributing
-Solo project for now!
-
-## License
-MIT (or choose your preference)
+An action-packed hybrid that fuses the raw, street-brawling energy of classic arcade beat-'em-ups with the deep progression, stat customization, and build variety of modern Action RPGs. Built from scratch using Java and LibGDX.
