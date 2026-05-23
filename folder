@@ -1,0 +1,18 @@
+final-flight-rpg/
+├── public/
+├── src/
+│   ├── core/
+│   ├── combat/
+│   ├── entities/
+│   ├── systems/
+│   ├── ai/
+│   ├── ui/
+│   ├── maps/
+│   ├── assets/
+│   ├── audio/
+│   ├── shaders/
+│   ├── save/
+│   └── main.ts
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
