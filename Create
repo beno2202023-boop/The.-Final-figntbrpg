@@ -1,0 +1,7 @@
+npm create vite@latest final-flight-rpg -- --template vanilla-ts
+cd final-flight-rpg
+npm install
+npm install pixi.js
+npm install zustand
+npm install howler
+npm install simplex-noise
