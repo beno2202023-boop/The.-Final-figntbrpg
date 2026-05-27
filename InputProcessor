@@ -1,0 +1,48 @@
+package com.mygame;
+
+import com.badlogic.gdx.Input.Keys;
+import com.badlogic.gdx.InputAdapter;
+
+public class PlayerInputProcessor extends InputAdapter {
+    private PlayerCharacter player;
+
+    public PlayerInputProcessor(PlayerCharacter player) {
+        this.player = player;
+    }
+
+    @Override
+    public boolean keyDown(int keycode) {
+        switch(keycode) {
+            case Keys.A:
+            case Keys.LEFT:
+                player.moveLeft(true);
+                return true;
+            case Keys.D:
+            case Keys.RIGHT:
+                player.moveRight(true);
+                return true;
+            case Keys.J: // Example: Light Attack
+                player.triggerAttack("LIGHT");
+                return true;
+            case Keys.K: // Example: Special Move
+                player.triggerAttack("SPECIAL");
+                return true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean keyUp(int keycode) {
+        switch(keycode) {
+            case Keys.A:
+            case Keys.LEFT:
+                player.moveLeft(false);
+                return true;
+            case Keys.D:
+            case Keys.RIGHT:
+                player.moveRight(false);
+                return true;
+        }
+        return false;
+    }
+}
