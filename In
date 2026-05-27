@@ -1,0 +1,1 @@
+Gdx.input.setInputProcessor(new PlayerInputProcessor(entityManager.getPlayer()));
